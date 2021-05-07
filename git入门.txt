@@ -21,5 +21,32 @@ git 是分布式版本控制软件
 
 5.目录中右键 gitbash   输入 git init  ，文件夹中没有 .git 文件夹，在  组织--文件夹和搜索选项--查看  设置相关可见选项
 6.远程关联  进入 https://github.com/ds1816  （?tab=repositories），点击进入 repositories，新建项目后，可生成标识符（https://github.com/ds1816/myGitNotes.git）
-7.开始关联  ，将本地项目推送到远程
+7.开始关联  ，将本地项目推送到远程  
+git add .
+$ git commit -m "first push"
+$ git push -u origin master
+/**
+1.OpenSSL SSL_read: Connection was reset, errno 10054  报错解决方法：
+     打开Git命令页面，执行git命令脚本： 修改设置，解除ssl验证
+      git config --global http.sslVerify "false"
+
+2.GIT 报错：Branch ‘master’ set up to track remote branch ‘master’ from ‘origin’  解决方法：
+    1、移除
+    git remote rm origin
+   2、再次连接
+   git remote add origin ‘仓库地址’
+   
+*/
+
+克隆   git clone git@github.com:ds1816/gitNotes.git
+
+
+更新 
+
+提交 
+git add .
+git commit -m "本地修改提交"
+git push   origin master
+
+
 
