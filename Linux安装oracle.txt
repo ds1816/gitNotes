@@ -1,0 +1,12 @@
+1. Linux 如何查看当前操作系统类型  cat /proc/version  （无用）
+
+2. 查看Linux数据库安装位置及卸载
+
+3.查看linux上的cpu是32位还是64位,方法有很多种,这里简单介绍一下: 1.#uname -a 如果有x86_64就是64位的,没有就是32位的
+
+4. Linux账号管理  https://www.cnblogs.com/jixp/p/10895867.html
+
+5. 清理linux 某个文件夹下面所有的log文件  https://blog.csdn.net/weixin_30654583/article/details/95168815
+6.oracle11G的linux下的离线安装教程   https://www.cnblogs.com/cc66/p/12861794.html
+
+
