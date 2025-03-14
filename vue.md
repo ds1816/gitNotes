@@ -139,11 +139,8 @@ npm create vue@latest
 </style>
 ```
 
-安装官方推荐的`vscode`插件：
-
-<img src="images/volar.png" alt="Snipaste_2023-10-08_20-46-34" style="zoom:50%;" /> 
-
-<img src="images/image-20231218085906380.png" alt="image-20231218085906380" style="zoom:42%;" /> 
+安装官方推荐的`vscode`插件：vue official
+ 
 
 总结：
 
